@@ -1,0 +1,50 @@
+.navbar {
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 0.8rem 1rem;
+  
+    &__container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    &__brand {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+  
+    &__logo {
+      font-size: 1.3rem;
+    }
+  
+    &__title {
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: $secondary;
+    }
+  
+    &__actions {
+      display: none;
+    }
+  
+    &__badge {
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 0.3rem 0.7rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+    }
+  
+  
+    @include respond(sm) {
+      padding: 1rem 2rem;
+  
+      &__actions {
+        display: block;
+      }
+    }
+  }

@@ -1,0 +1,23 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: $radius;
+    overflow: hidden;
+    box-shadow: $shadow;
+  
+    th, td {
+      padding: 0.7rem;
+      text-align: left;
+    }
+  
+    th {
+      background: #f1f5f9;
+    }
+  
+    tr:nth-child(even) {
+      background: #f8fafc;
+    }
+    
+      
+  }

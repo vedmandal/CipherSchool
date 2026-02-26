@@ -1,0 +1,22 @@
+.card {
+    background: white;
+    padding: 1rem;
+    border-radius: $radius;
+    box-shadow: $shadow;
+    margin-bottom: 1rem;
+  
+    &__title {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+  
+    &__desc {
+      font-size: 0.9rem;
+      margin: 0.5rem 0;
+      color: #64748b;
+    }
+  
+    &__footer {
+      margin-top: 0.8rem;
+    }
+  }

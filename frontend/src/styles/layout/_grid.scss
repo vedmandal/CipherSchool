@@ -1,0 +1,17 @@
+.attempt {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  
+    @include respond(md) {
+      flex-direction: row;
+    }
+  
+    &__left {
+      flex: 1;
+    }
+  
+    &__right {
+      flex: 1.2;
+    }
+  }

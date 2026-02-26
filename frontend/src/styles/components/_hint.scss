@@ -1,0 +1,11 @@
+.hint {
+    background: #eff6ff;
+    padding: 1rem;
+    border-left: 4px solid $primary;
+    border-radius: $radius;
+    font-size: 0.9rem;
+  }
+  .loader {
+    @include flex-center;
+    padding: 1rem;
+  }

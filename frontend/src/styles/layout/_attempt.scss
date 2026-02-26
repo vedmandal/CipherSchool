@@ -1,0 +1,16 @@
+.assignment-attempt {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Keep buttons aligned nicely */
+  .assignment-attempt .button {
+    align-self: flex-start;
+  }
+  .assignment-attempt button {
+    margin-right: 0.8rem;
+  }
